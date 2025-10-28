@@ -1,0 +1,87 @@
+{
+  "appTitle": "Professional AI Marketing Email Writer",
+  "appDescription": "Fill in the fields on the left to generate your first marketing email.",
+  "generateButton": "Generate Email",
+  "generatingButton": "Generating...",
+  "improveButton": "Improve",
+  "improvingButton": "Improving...",
+  "saveButton": "Save as Text",
+  "saveHtmlButton": "Save as HTML",
+  "readyToStart": "Ready to Start Creating?",
+  "fillFormPrompt": "Fill in the fields in the form on the left to generate your first marketing email.",
+  "errorTitle": "Error",
+  "generationError": "An error occurred while generating the email. Please try again.",
+  "improvementError": "An error occurred while improving this section. Please try again.",
+  "preGenChecklistTitle": "Generation Checklist",
+  "generatedEmailTitle": "Generated Email",
+  "finalReviewTitle": "Final Review",
+  "formTitle": "Email Campaign Details",
+  "formFields": {
+    "productName": { "label": "Product/Service Name", "placeholder": "e.g., Task Management App" },
+    "audience": { "label": "Target Audience", "placeholder": "e.g., Small business owners and freelancers" },
+    "mainGoal": { "label": "Main Goal (CTA)", "placeholder": "e.g., Sign up for a free trial" },
+    "painPoint": { "label": "Pain Point Product Solves", "placeholder": "e.g., Difficulty tracking multiple tasks" },
+    "valueProp": { "label": "Unique Value Proposition", "placeholder": "e.g., The only app that integrates tasks, calendar, and notes" },
+    "socialProof": { "label": "Social Proof (if any)", "placeholder": "e.g., Customer testimonial, 'My productivity increased by 50%!'" },
+    "brandName": { "label": "Brand Name", "placeholder": "e.g., Productivity Plus" },
+    "senderName": { "label": "Sender's Name", "placeholder": "e.g., John Doe" },
+    "senderTitle": { "label": "Sender's Job Title", "placeholder": "e.g., Founder of Productivity Plus" }
+  },
+  "finalReviewItems": {
+    "mobile_preview": "Mobile Display Readiness",
+    "links_checked": "Links Check",
+    "grammar_verified": "Grammar Check",
+    "spam_score_ok": "Spam Score Indicator"
+  },
+  "suggestedSendTime": "Suggested Send Time",
+  "improveModal": {
+    "title": "Improve:",
+    "notesLabel": "Notes for Improvement (Optional)",
+    "notesPlaceholder": "e.g., Make the tone more professional, or add a sense of urgency...",
+    "notesHint": "You can leave this field blank for the AI to perform a general improvement.",
+    "cancel": "Cancel",
+    "improveNow": "Improve Now"
+  },
+  "settings": "Settings",
+  "apiKeyModal": {
+    "title": "Set Your Gemini API Key",
+    "label": "Your Gemini API Key",
+    "placeholder": "Paste your API key here",
+    "save": "Save Key",
+    "close": "Close",
+    "instructions": "You can get your API key from",
+    "securityWarning": "Your API key is stored only in your browser's local storage. It is never sent to our servers."
+  },
+  "errors": {
+    "apiKeyMissing": "Please set your Gemini API Key in the settings before generating an email."
+  },
+  "settingsModal": {
+    "apiKey": {
+      "tab": "API Key"
+    },
+    "html": {
+      "tab": "HTML Export Styles",
+      "selectSection": "Select a section to customize",
+      "fontFamily": "Font Family",
+      "fontSize": "Font Size",
+      "fontWeight": "Font Weight",
+      "fontStyle": "Font Style",
+      "color": "Text Color",
+      "backgroundColor": "Background Color",
+      "resetAll": "Reset all styles to default",
+      "default": "Default",
+      "sections": {
+        "Global": "Global Styles",
+        "Preheader": "Preheader / Preview Text",
+        "Header": "Header Image or Clean Hero Section",
+        "Opening": "Opening Line",
+        "Body": "Body Copy",
+        "Social": "Social Proof / Micro-Story / Case Snippet",
+        "Call-to-Action": "Call-to-Action",
+        "Secondary": "Secondary CTA",
+        "Signature": "Signature Block",
+        "Footer": "Footer"
+      }
+    }
+  }
+}

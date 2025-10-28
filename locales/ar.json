@@ -1,0 +1,87 @@
+{
+  "appTitle": "كاتب الإيميلات التسويقية الإحترافي",
+  "appDescription": "املأ الحقول في النموذج على اليسار لإنشاء أول بريد إلكتروني تسويقي لك.",
+  "generateButton": "إنشاء البريد الإلكتروني",
+  "generatingButton": "جاري الإنشاء...",
+  "improveButton": "تحسين",
+  "improvingButton": "جاري التحسين...",
+  "saveButton": "حفظ كنص",
+  "saveHtmlButton": "حفظ كـ HTML",
+  "readyToStart": "جاهز لبدء الإنشاء؟",
+  "fillFormPrompt": "املأ الحقول في النموذج على اليمين لإنشاء أول بريد إلكتروني تسويقي لك.",
+  "errorTitle": "خطأ",
+  "generationError": "حدث خطأ أثناء إنشاء البريد الإلكتروني. يرجى المحاولة مرة أخرى.",
+  "improvementError": "حدث خطأ أثناء تحسين هذا الجزء. يرجى المحاولة مرة أخرى.",
+  "preGenChecklistTitle": "قائمة مراجعة الإنشاء",
+  "generatedEmailTitle": "البريد الإلكتروني المُنشأ",
+  "finalReviewTitle": "المراجعة النهائية",
+  "formTitle": "تفاصيل حملة البريد الإلكتروني",
+  "formFields": {
+    "productName": { "label": "اسم المنتج/الخدمة", "placeholder": "مثال: تطبيق لإدارة المهام" },
+    "audience": { "label": "الجمهور المستهدف", "placeholder": "مثال: أصحاب المشاريع الصغيرة والمستقلين" },
+    "mainGoal": { "label": "الهدف الرئيسي (CTA)", "placeholder": "مثال: تسجيل في نسخة تجريبية مجانية" },
+    "painPoint": { "label": "نقطة الألم التي يعالجها المنتج", "placeholder": "مثال: صعوبة تتبع المهام المتعددة" },
+    "valueProp": { "label": "عرض القيمة الفريد", "placeholder": "مثال: التطبيق الوحيد الذي يدمج المهام والتقويم والملاحظات" },
+    "socialProof": { "label": "دليل اجتماعي (إن وجد)", "placeholder": "مثال: شهادة من عميل، \"لقد زادت إنتاجيتي بنسبة 50%!\"" },
+    "brandName": { "label": "اسم العلامة التجارية", "placeholder": "مثال: إنتاجية بلس" },
+    "senderName": { "label": "اسم المرسل", "placeholder": "مثال: أحمد خالد" },
+    "senderTitle": { "label": "المنصب الوظيفي للمرسل", "placeholder": "مثال: مؤسس إنتاجية بلس" }
+  },
+  "finalReviewItems": {
+    "mobile_preview": "جاهزية العرض على الموبايل",
+    "links_checked": "التحقق من الروابط",
+    "grammar_verified": "التحقق من القواعد اللغوية",
+    "spam_score_ok": "مؤشر الرسائل المزعجة (Spam)"
+  },
+  "suggestedSendTime": "وقت الإرسال المقترح",
+  "improveModal": {
+    "title": "تحسين:",
+    "notesLabel": "ملاحظات للتحسين (اختياري)",
+    "notesPlaceholder": "مثال: اجعل اللهجة أكثر احترافية، أو أضف إحساسًا بالإلحاح...",
+    "notesHint": "يمكنك ترك هذا الحقل فارغًا ليقوم الذكاء الاصطناعي بالتحسين بشكل عام.",
+    "cancel": "إلغاء",
+    "improveNow": "تحسين الآن"
+  },
+  "settings": "الإعدادات",
+  "apiKeyModal": {
+    "title": "أدخل مفتاح Gemini API الخاص بك",
+    "label": "مفتاح Gemini API",
+    "placeholder": "ألصق مفتاح الـ API هنا",
+    "save": "حفظ المفتاح",
+    "close": "إغلاق",
+    "instructions": "يمكنك الحصول على مفتاح الـ API الخاص بك من",
+    "securityWarning": "يتم تخزين مفتاح API الخاص بك في التخزين المحلي لمتصفحك فقط. لا يتم إرساله أبدًا إلى خوادمنا."
+  },
+  "errors": {
+    "apiKeyMissing": "الرجاء إدخال مفتاح Gemini API في الإعدادات قبل إنشاء بريد إلكتروني."
+  },
+  "settingsModal": {
+    "apiKey": {
+      "tab": "مفتاح API"
+    },
+    "html": {
+      "tab": "تنسيقات تصدير HTML",
+      "selectSection": "اختر قسمًا لتخصيصه",
+      "fontFamily": "نوع الخط",
+      "fontSize": "حجم الخط",
+      "fontWeight": "وزن الخط",
+      "fontStyle": "نمط الخط",
+      "color": "لون النص",
+      "backgroundColor": "لون الخلفية",
+      "resetAll": "إعادة تعيين كل التنسيقات إلى الافتراضي",
+      "default": "افتراضي",
+      "sections": {
+        "Global": "التنسيقات العامة",
+        "Preheader": "النص التمهيدي / المعاينة",
+        "Header": "صورة الرأس / قسم الهيرو",
+        "Opening": "سطر الافتتاح",
+        "Body": "محتوى الإيميل",
+        "Social": "الدليل الاجتماعي / قصة مصغرة",
+        "Call-to-Action": "الدعوة لاتخاذ إجراء",
+        "Secondary": "الدعوة الثانوية لاتخاذ إجراء",
+        "Signature": "جزء التوقيع",
+        "Footer": "التذييل"
+      }
+    }
+  }
+}
